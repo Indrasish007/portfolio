@@ -12,9 +12,9 @@ export const cv = {
   resume: "/Indrasish_Adhya_CV.pdf",
   stats: [
     { label: "Years Learning", value: "5+" },
-    { label: "Projects Built", value: "10+" },
+    // { label: "Projects Built", value: "10+" },
     { label: "Technologies", value: "12+" },
-    { label: "CGPA (B.Sc.)", value: "7.91" },
+    // { label: "CGPA (B.Sc.)", value: "7.91" },
   ],
   skills: {
     "AI / ML": ["AI/ML", "Python", "Linear Regression", "Jupyter Notebook"],
