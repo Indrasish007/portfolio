@@ -9,6 +9,11 @@ export const cv = {
   email: "indrasishadhya770@gmail.com",
   phone: "+91 7439667724",
   github: "https://github.com/Indrasish007",
+  linkedin: "https://www.linkedin.com/in/indrasish-adhya-480bb1305/",
+  instagram: "https://www.instagram.com/_adhya_indrasish_/",
+  facebook: "https://www.facebook.com/adhyaindrasish777/",
+  twitter: "https://x.com/IndrasishAdhya",
+
   resume: "/Indrasish_Adhya_CV.pdf",
   stats: [
     { label: "Years Learning", value: "5+" },

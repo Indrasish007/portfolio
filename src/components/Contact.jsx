@@ -1,8 +1,8 @@
-import { GithubIcon } from "./icons/GithubIcon.jsx";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, Send, CheckCircle2 } from "lucide-react";
 import { Section } from "./Section.jsx";
+import { SocialDock } from "./SocialDock.jsx";
 import { cv } from "../data/cv.js";
 
 export function Contact() {
@@ -21,7 +21,6 @@ export function Contact() {
     { icon: Mail, label: "Email", value: cv.email, href: `mailto:${cv.email}` },
     { icon: Phone, label: "Phone", value: cv.phone, href: `tel:${cv.phone.replace(/\s/g, "")}` },
     { icon: MapPin, label: "Location", value: cv.location },
-    { icon: GithubIcon, label: "GitHub", value: "Indrasish007", href: cv.github },
   ];
 
   return (
@@ -38,7 +37,7 @@ export function Contact() {
               key={c.label}
               href={c.href}
               target={c.href?.startsWith("http") ? "_blank" : undefined}
-              rel="noreferrer"
+              rel="noopener noreferrer"
               initial={{ opacity: 0, y: 16 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -120,6 +119,10 @@ export function Contact() {
             )}
           </button>
         </motion.form>
+      </div>
+      <div className="mt-10">
+        <div className="text-center text-xs uppercase tracking-widest text-accent mb-3">Find me on</div>
+        <SocialDock />
       </div>
     </Section>
   );

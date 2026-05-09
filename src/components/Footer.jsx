@@ -1,5 +1,6 @@
 import { GithubIcon } from "./icons/GithubIcon.jsx";
 import { Mail, Heart } from "lucide-react";
+import { Linkedin, Instagram, Facebook, Twitter } from "./icons/BrandIcons.jsx";
 import { cv } from "../data/cv.js";
 
 const links = [
@@ -41,9 +42,21 @@ export function Footer() {
 
         <div>
           <div className="text-xs uppercase tracking-widest text-accent mb-3">Connect</div>
-          <div className="flex gap-3">
-            <a href={cv.github} target="_blank" rel="noreferrer" className="grid place-items-center w-10 h-10 rounded-xl glass hover:text-accent transition-smooth" aria-label="GitHub">
+          <div className="flex flex-wrap gap-3">
+            <a href={cv.github} target="_blank" rel="noopener noreferrer" className="grid place-items-center w-10 h-10 rounded-xl glass hover:text-accent transition-smooth" aria-label="GitHub">
               <GithubIcon className="w-4 h-4" />
+            </a>
+            <a href={cv.linkedin} target="_blank" rel="noopener noreferrer" className="grid place-items-center w-10 h-10 rounded-xl glass hover:text-accent transition-smooth" aria-label="LinkedIn">
+              <Linkedin className="w-4 h-4" />
+            </a>
+            <a href={cv.instagram} target="_blank" rel="noopener noreferrer" className="grid place-items-center w-10 h-10 rounded-xl glass hover:text-accent transition-smooth" aria-label="Instagram">
+              <Instagram className="w-4 h-4" />
+            </a>
+            <a href={cv.facebook} target="_blank" rel="noopener noreferrer" className="grid place-items-center w-10 h-10 rounded-xl glass hover:text-accent transition-smooth" aria-label="Facebook">
+              <Facebook className="w-4 h-4" />
+            </a>
+            <a href={cv.twitter} target="_blank" rel="noopener noreferrer" className="grid place-items-center w-10 h-10 rounded-xl glass hover:text-accent transition-smooth" aria-label="Twitter / X">
+              <Twitter className="w-4 h-4" />
             </a>
             <a href={`mailto:${cv.email}`} className="grid place-items-center w-10 h-10 rounded-xl glass hover:text-accent transition-smooth" aria-label="Email">
               <Mail className="w-4 h-4" />
