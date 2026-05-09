@@ -64,6 +64,39 @@ export const cv = {
       tech: ["Python", "Streamlit", "Jupyter", "Regex", "HTML", "CSS"],
       github: "https://github.com/Indrasish007/PredictXplorer",
     },
+    {
+      title: "A Personalized Recipe Planner",
+      category: "AI & Web based",
+      description:
+        "The Personalized Recipe Planner is a full‑stack application designed to help users create customized meal plans, discover recipes based on available ingredients, track calories, and receive diet suggestions based on personal preferences.",
+      features: [
+        "Provide personalized meal recommendations.",
+        "Fetch recipes based on ingredients.",
+        "Allow users to construct weekly meal plans.",
+        "Track calories and nutritional information.",
+        "Saving and retrieving favorite recipes (incl. export to pdf).",
+        
+      ],
+      tech: ["React", "Firebase suite", "TailwindCSS", "API services"],
+      github: "https://github.com/Indrasish007/Recipe_Planner_Deploy",
+    },
+    {
+      title: "A Portfolio Builder Website",
+      category: "AI & Web based",
+      description:
+        "An AI-powered portfolio website builder that transforms your resume, skills, and project details into a stunning, fully responsive personal portfolio website within minutes.",
+      features: [
+        "Simple design . Anyone can acces.",
+        "Fetch your details from the data you provided.",
+        "Select your favourite theme.",
+        "Portfolio can be customized.",
+        "Ai powered caption.",
+        
+      ],
+      tech: ["React", "Django", "TailwindCSS", "API services"],
+      status: "Under Development",
+      github: null,
+    },
   ],
   achievements: [
     { title: "B.Sc. CS Graduate", detail: "Completed honours degree with 7.91 CGPA from University of Kalyani." },
