@@ -67,7 +67,7 @@ export const cv = {
         "Interactive Streamlit dashboard with multi-page UX",
       ],
       tech: ["Python", "Streamlit", "Jupyter", "Regex", "HTML", "CSS"],
-      github: "https://github.com/Indrasish007/PredictXplorer",
+      github: "https://github.com/Indrasish007/PredictXplorer_modified",
     },
     {
       title: "A Personalized Recipe Planner",
@@ -86,21 +86,26 @@ export const cv = {
       github: "https://github.com/Indrasish007/Recipe_Planner_Deploy",
     },
     {
-      title: "A Portfolio Builder Website",
+      title: "PortfolioBuilder — AI-Powered Portfolio SaaS",
       category: "AI & Web based",
       description:
-        "An AI-powered portfolio website builder that transforms your resume, skills, and project details into a stunning, fully responsive personal portfolio website within minutes.",
+        "A state-of-the-art, fully-featured SaaS platform that enables professionals to build stunning digital portfolios in seconds. Users can instantly upload a resume (PDF/DOCX) or paste raw text to auto-parse, structure, and generate digital web portfolios with customizable themes, deep AI writing assistants, and interactive real-time analytics.",
       features: [
-        "Simple design . Anyone can acces.",
-        "Fetch your details from the data you provided.",
-        "Select your favourite theme.",
-        "Portfolio can be customized.",
-        "Ai powered caption.",
-        
+        "AI-Powered Resume Parser & Onboarding from PDF/DOCX or raw text.",
+        "Decoupled layout & theme system with 7 distinct layouts (Biz, Glass, Cyberpunk, etc.).",
+        "Deep AI copywriting assistant, contextual chat, and paragraph rewriter.",
+        "Real-time visitor, device, session, and geolocation traffic analytics.",
+        "Automated SEO engine, canonical URLs, and dynamic Open Graph image generation.",
+        "Printable CV/resume preview and direct PDF export.",
       ],
-      tech: ["React", "Django", "TailwindCSS", "API services"],
-      status: "Under Development",
-      github: null,
+      tech: [
+        "React 19", 
+        "Django 6.0", 
+        "Tailwind CSS v4", 
+        "Google GenAI & Groq SDKs", 
+        "Django REST Framework", 
+      ],
+      github:"https://github.com/Indrasish007/PortfolioBuilder",
     },
   ],
   achievements: [
