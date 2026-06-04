@@ -68,6 +68,7 @@ export const cv = {
       ],
       tech: ["Python", "Streamlit", "Jupyter", "Regex", "HTML", "CSS"],
       github: "https://github.com/Indrasish007/PredictXplorer_modified",
+      link: "https://predictxplorercws.streamlit.app/",
     },
     {
       title: "A Personalized Recipe Planner",
@@ -80,10 +81,11 @@ export const cv = {
         "Allow users to construct weekly meal plans.",
         "Track calories and nutritional information.",
         "Saving and retrieving favorite recipes (incl. export to pdf).",
-        
+
       ],
       tech: ["React", "Firebase suite", "TailwindCSS", "API services"],
       github: "https://github.com/Indrasish007/Recipe_Planner_Deploy",
+      link: "https://recipeplanner.vercel.app/",
     },
     {
       title: "PortfolioBuilder — AI-Powered Portfolio SaaS",
@@ -99,13 +101,14 @@ export const cv = {
         "Printable CV/resume preview and direct PDF export.",
       ],
       tech: [
-        "React 19", 
-        "Django 6.0", 
-        "Tailwind CSS v4", 
-        "Google GenAI & Groq SDKs", 
-        "Django REST Framework", 
+        "React 19",
+        "Django 6.0",
+        "Tailwind CSS v4",
+        "Google GenAI & Groq SDKs",
+        "Django REST Framework",
       ],
-      github:"https://github.com/Indrasish007/PortfolioBuilder",
+      github: "https://github.com/Indrasish007/PortfolioBuilder",
+      link: "https://buildyourfolio.vercel.app/",
     },
   ],
   achievements: [

@@ -86,28 +86,28 @@ export function Projects() {
 
                 <div className="mt-6 flex flex-wrap gap-3">
                   {p.github ? (
-                    <>
-                      <a
-                        href={p.github}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="inline-flex items-center gap-2 text-sm glass px-4 py-2 rounded-xl hover:text-accent transition-smooth"
-                      >
-                        <GithubIcon className="w-4 h-4" /> Source
-                      </a>
-                      <a
-                        href={p.github}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="inline-flex items-center gap-2 text-sm bg-gradient-primary text-primary-foreground px-4 py-2 rounded-xl hover:scale-[1.03] transition-smooth shadow-glow"
-                      >
-                        <ExternalLink className="w-4 h-4" /> View Project
-                      </a>
-                    </>
+                    <a
+                      href={p.github}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center gap-2 text-sm glass px-4 py-2 rounded-xl hover:text-accent transition-smooth"
+                    >
+                      <GithubIcon className="w-4 h-4" /> Source
+                    </a>
                   ) : (
                     <span className="inline-flex items-center gap-2 text-sm glass px-4 py-2 rounded-xl text-muted-foreground cursor-not-allowed opacity-80">
                       <GithubIcon className="w-4 h-4" /> Source · Coming Soon
                     </span>
+                  )}
+                  {p.link && (
+                    <a
+                      href={p.link}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center gap-2 text-sm bg-gradient-primary text-primary-foreground px-4 py-2 rounded-xl hover:scale-[1.03] transition-smooth shadow-glow"
+                    >
+                      <ExternalLink className="w-4 h-4" /> View Project
+                    </a>
                   )}
                 </div>
               </div>
