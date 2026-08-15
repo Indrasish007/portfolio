@@ -32,8 +32,8 @@ export const cv = {
     {
       title: "Master of Computer Application (MCA)",
       org: "Academy of Technology, Adisaptagram · MAKAUT",
-      date: "Expected August 2026",
-      detail: "Pursuing advanced studies in computer application, software engineering and data science.",
+      date: "August 2026",
+      detail: "Graduated with CGPA 8.06. Focused on software engineering, full-stack development, artificial intelligence and data science.",
     },
     {
       title: "B.Sc. (Hons.) Computer Science",
